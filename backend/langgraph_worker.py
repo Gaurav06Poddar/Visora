@@ -10,7 +10,7 @@ from .models import Analyzer
 
 def run_analyzer_task(analyzer: Analyzer):
     analyzer_id = analyzer.id
-    stream_url = analyzer.stream_url
+    stream_url = analyzer.stream_url    
     schema_fields = analyzer.schema_fields
 
     base_path = f"analyzers/{analyzer_id}"

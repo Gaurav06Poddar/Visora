@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+opencv-python
+langchain>=0.1.16
+google-generativeai
+langchain-google-genai>=0.0.9
+python-multipart
+aiofiles
